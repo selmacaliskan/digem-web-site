@@ -1,62 +1,79 @@
-# 🎮 DİGEM — Geleceğin Meslekleri Kariyer Portalı
+# DİGEM — Geleceğin Meslekleri Kariyer Portalı
 
-> **Program:** Yazılım ve Tasarım için Komut Mühendisliğine Giriş Programı — Bitirme Projesi  
-> **Proje Türü:** Web Sitesi (Landing Page MVP)  
-> **Hazırlayan:** Selma Çalışkan  
-
-DİGEM (Dijital Oyun Geliştirme ve Eğitim Merkezi) için hazırlanan; gençleri doğrudan aksiyona, yetenek analizine ve eğitim başvurularına yönlendiren modern, mobil öncelikli ve etkileşimli bir kariyer rehberliği platformu prototipidir.
+**Proje türü:** Web sitesi (landing page MVP)
+**Program:** Yazılım ve Tasarım için Komut Mühendisliğine Giriş Programı — Bitirme Projesi
+**Hazırlayan:** Birisi
 
 ---
 
-## 📌 Proje Hakkında ve Çözülen Problem
+## 1. Proje Adı
 
-14-24 yaş arası gençler geleceğin mesleklerini keşfederken genellikle dağınık ve güvenilirliği belirsiz kaynaklarla karşılaşmakta; ilgi ve yeteneklerini somut bir eğitim yoluna dönüştürecek tek bir rehber bulamamaktadır. Ayrıca geleneksel kurumsal web siteleri, gençlerin hızlı ve mobil odaklı bilgi tüketim alışkanlıklarına uymayan uzun metinlerle doludur.
-
-DİGEM Kariyer Portalı bu boşluğu; kullanıcıyı doğrudan aksiyona (aktif eğitimler, interaktif yetenek testi, başvuru süreci) yönlendiren, dinamik ve görsel ağırlıklı bir arayüzle kapatmayı hedeflemektedir.
-
----
-
-## 🎯 Hedef Kitle
-
-* **14-24 Yaş Arası Gençler:** Geleceğin dijital mesleklerini ve kendi yetenek alanlarını keşfetmek isteyenler.
-* **Ebeveynler ve Kariyer Danışmanları:** Öğrencilerin ve çocukların doğru eğitim alanlarına yönlendirilmesinde rehberlik arayanlar.
-* **Mobil Kullanıcılar:** Bilgiye hızlı, pratik ve kullanıcı dostu bir arayüz üzerinden ulaşmak isteyenler.
+**DİGEM — Geleceğin Meslekleri Kariyer Portalı**
+(Dijital Oyun Geliştirme ve Eğitim Merkezi'nin kariyer rehberliği web platformu, landing page MVP'si)
 
 ---
 
-## 🤖 Yapay Zeka (AI) Kullanım Süreci
+## 2. Çözülen Problem
 
-Proje geliştirme sürecinde **Claude (Anthropic, Sonnet)** tek AI aracı olarak kullanılmıştır. Tasarım planlaması, HTML/CSS/JS kod yapısı ve metin yazımı (copywriting) süreçleri yapılandırılmış bir komut mühendisliği (prompt engineering) yaklaşımıyla yürütülmüştür.
+14-24 yaş arası gençler geleceğin mesleklerini keşfederken genellikle dağınık, güvenilirliği belirsiz kaynaklara yöneliyor ve ilgi/yeteneklerini somut bir eğitim yoluna dönüştürecek tek bir rehber bulamıyor. Ayrıca çoğu kariyer/eğitim kurumu sitesi uzun, kurumsal metinlerle dolu ve gençlerin hızlı, mobil-öncelikli bilgi alma alışkanlığına uymuyor.
 
-### 🔄 Uygulanan Süreç Adımları
-1. **Yapılandırılmış Brief (Rol / Bağlam / Görev / Kısıt):** Projenin amacı, hedef kitlesi, marka diline dair net yönlendirmeler tanımlandı.  
-   * *Örnek Kısıt:* `"Ana Renk: CANLI ve modern turuncu / Destek renk: turkuaz / Vurgu: lime yeşili... Geleneksel kamu kurumu sitesi görünümünden kaçın."`
-2. **Tasarım Planı ve Token Sistemi:** Kodlama öncesinde renk hex değerleri, tipografi rolleri, yerleşim konsepti ve imza ögeler baştan netleştirilerek jenerik "AI görünümü" engellendi.
-3. **Üretim:** Modüler yapıda HTML5, CSS3 ve JavaScript kod bloğu oluşturuldu.
-4. **İnceleme ve İterasyon:** Çıktılar marka dili ve işlevsellik kriterlerine göre test edilip optimize edildi.
+DİGEM portalı bu boşluğu, kullanıcıyı doğrudan aksiyona (aktif eğitimler, yetenek testi, uzman görüşmesi) yönlendiren, kısa ve görsel ağırlıklı bir arayüzle kapatmayı hedefliyor.
 
 ---
 
-## ⚡ Öne Çıkan Özellikler ve Kullanılabilirlik
+## 3. Hedef Kitle (DİGEM Perspektifi)
 
-* **Interaktif Yetenek Testi:** Kullanıcı yanıtlarına göre dynamic ilerleme çubuğu güncellenir ve sonuç ekranında kişiselleştirilmiş meslek alanı ile ilgili eğitim CTA'sı sunulur.
-* **Mobil Öncelikli & Responsive Tasarım:** Tüm ekran boyutlarında (mobil, tablet, masaüstü) akıcı arayüz deneyimi.
-* **Erişilebilirlik (Accessibility):** Klavye odak stilleri (`focus styles`) korunmuş ve `prefers-reduced-motion` kullanıcı tercihleri dikkate alınmıştır.
-* **Hızlı Aksiyon Akışı:** İlk 10 saniyede kullanıcının eğitime başvurmasını veya teste başlamasını sağlayan dönüşüm odaklı tasarım.
-
----
-
-## 🛠️ Teknolojiler
-
-* **Frontend:** HTML5, CSS3 (Custom Properties / Flexbox & Grid), JavaScript (Vanilla ES6+)
-* **İkon & Font:** Lucide Icons, Google Fonts (Montserrat & Roboto)
-* **Tasarım & Metin Üretimi:** Claude (Anthropic, Sonnet)
+- 14-24 yaş arası, geleceğin mesleğini arayan gençler
+- Ebeveynler ve kariyer danışmanları (çocuklarının/öğrencilerinin yönünü anlamak isteyen)
+- Mobil cihazdan hızlı ve kolay bilgiye ulaşmak isteyen kullanıcılar
 
 ---
 
-## 📂 Dosya Yapısı
+## 4. Kullanılan Yapay Zeka Araçları
 
-```text
-├── index.html   # Ana web sayfası ve interaktif yetenek testi bileşeni
-├── style.css    # Tasarım token'ları, responsive düzen ve özel stiller
-└── script.js    # Yetenek testi mantığı ve dinamik içerik yönlendirmeleri
+- **Claude (Anthropic, Sonnet)** — proje boyunca tek AI aracı olarak kullanıldı: tasarım planlaması, HTML/CSS/JS üretimi ve içerik (kopya) yazımı için.
+
+---
+
+## 5. Yapay Zeka Kullanım Süreci (Prompt Örnekleri Dâhil)
+
+Süreç, klasik "tek prompt → hazır ürün" mantığıyla değil, **rol – bağlam – görev – kısıt** yapısına oturan, çok bölümlü bir brief üzerinden ilerledi:
+
+**1. Adım — Yapılandırılmış brief (rol/bağlam/görev/kısıt):**
+Claude'a; projenin amacı, hedef kitlesi, sayfa yapısı, landing page bölümleri ve marka tasarım dili (renk paleti, tipografi tercihleri, "kamu kurumu sitesi görünümünden kaçın" gibi net kısıtlar) madde madde verildi. Örnek kısıt ifadesi:
+
+> "Ana Renk: CANLI ve modern turuncu / Destek renk: turkuaz / vurgu: lime yeşili... Geleneksel kamu kurumu sitesi görünümünden kaçın."
+
+Bu, prompt kalitesinin çıktı kalitesine doğrudan etkisinin görüldüğü kısımdır — net kısıtlar verilmeden önce üretilecek tasarımın generik bir "AI görünümü"ne kayma riski yüksekti; marka dilini ve tasarım prensiplerini (tipografi eşleştirmesi, layout mantığı, "signature element" seçimi) baştan tanımlamak bu riski azalttı.
+
+**2. Adım — Tasarım planı ve gözden geçirme:**
+Claude, kodlamaya geçmeden önce bir tasarım token sistemi (renk hex değerleri, tipografi rolleri, layout konsepti, "imza öğesi") önerdi ve bunu genel AI-tasarım kalıplarına (klişe renk paletleri, gereksiz numaralandırma vb.) karşı kendi içinde eledi.
+
+**3. Adım — Üretim:**
+Hero, aktif eğitimler kart grid'i, "DİGEM nedir" bloğu, işlevsel bir mini yetenek testi (3 soruluk, sonucu meslek alanına göre değişen JS mantığı) ve footer üretildi; çıktı `index.html`, `style.css` ve `script.js` olarak ayrı dosyalara bölündü.
+
+**4. Adım — İnceleme ve isteğe bağlı iterasyon:**
+Çıktı, brief'teki maddelerle (marka dili, sayfa bölümleri, CTA'lar) karşılaştırılarak kontrol edildi; eksik/uygun olmayan kısımlar için ek prompt'larla düzeltme yapılabilecek şekilde açık bırakıldı.
+
+### Etik ve Farkındalık Notları
+
+- **Halüsinasyon riski:** Sitede kullanılan istatistikler (ör. "3.200+ test tamamlayan genç", "%92 memnuniyet") gerçek veri değildir; tasarımı doldurmak amacıyla üretilmiş örnek içeriktir ve gerçek bir yayına geçmeden önce doğrulanmış verilerle değiştirilmesi gerekir.
+- **Yanlılık:** Yetenek testindeki meslek kategorileri (oyun geliştirme, yazılım, tasarım, içerik üretimi) kasıtlı olarak dengeli ve stereotiplerden kaçınacak şekilde nötr ifadelerle yazıldı; cinsiyet veya sosyoekonomik statüye dair hiçbir varsayım içermiyor.
+- **Dijital mahremiyet:** Üyelik formu yalnızca ad, e-posta ve yaş aralığı gibi minimum veriyi topluyor; formun arka planda gerçek bir veri işleme akışı yoktur (statik prototip), bu nedenle KVKK/GDPR uyumluluğu gerçek bir backend eklenmeden önce ayrıca ele alınmalıdır.
+
+---
+
+## 6. Projenin DİGEM'lere Katkısı
+
+- Uzun tanıtım metinleri yerine doğrudan **aktif eğitimler ve "Başvur" CTA'ları** ile karşılaşan bir ana sayfa, gencin siteye girdiği ilk 10 saniyede aksiyon almasını kolaylaştırıyor.
+- **Yetenek testi**, gençlerin ilgi alanını 2 dakikada bir meslek yönüne bağlayıp ilgili eğitime yönlendirerek, "hangi eğitime kaydolmalıyım" sorusuna somut bir cevap sunuyor.
+- Mobil öncelikli, hızlı taranabilir yapı; mobilde bilgiye hızlı ulaşmak isteyen genç kullanıcı profiline uygun.
+
+---
+
+## 7. Kullanılabilirliğe Dair Kısa Açıklama
+
+- Tek sayfalık, tamamen responsive (mobile-first) statik bir prototiptir; `index.html`, `style.css` ve `script.js` dosyaları aynı klasörde tutulduğu sürece herhangi bir kurulum gerektirmeden tarayıcıda doğrudan açılabilir.
+- Yetenek testi tamamen işlevseldir: sorular cevaplanır, ilerleme çubuğu güncellenir, sonuç ekranı önerilen meslek alanını ve ilgili eğitime yönlendiren bir CTA gösterir.
+- Erişilebilirlik için klavye odak stilleri korunmuş ve `prefers-reduced-motion` kullanıcı tercihine saygı gösterilmiştir.
+- Üyelik formu ve "Başvur" butonları şu an statik prototip düzeyindedir; gerçek bir backend/veritabanı entegrasyonu bu MVP'nin kapsamı dışındadır.
