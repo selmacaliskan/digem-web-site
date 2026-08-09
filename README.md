@@ -77,3 +77,6 @@ Hero, aktif eğitimler kart grid'i, "DİGEM nedir" bloğu, işlevsel bir mini ye
 - Yetenek testi tamamen işlevseldir: sorular cevaplanır, ilerleme çubuğu güncellenir, sonuç ekranı önerilen meslek alanını ve ilgili eğitime yönlendiren bir CTA gösterir.
 - Erişilebilirlik için klavye odak stilleri korunmuş ve `prefers-reduced-motion` kullanıcı tercihine saygı gösterilmiştir.
 - Üyelik formu ve "Başvur" butonları şu an statik prototip düzeyindedir; gerçek bir backend/veritabanı entegrasyonu bu MVP'nin kapsamı dışındadır.
+
+## Site Landing Page (Açılış Sayfası)
+<img width="1885" height="887" alt="image" src="https://github.com/user-attachments/assets/37a72589-b537-48c7-b676-9fe7e3a7bc51" />
