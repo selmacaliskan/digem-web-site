@@ -2,7 +2,7 @@
 
 **Proje türü:** Web sitesi (landing page MVP)
 **Program:** Yazılım ve Tasarım için Komut Mühendisliğine Giriş Programı — Bitirme Projesi
-**Hazırlayan:** Birisi
+**Hazırlayan:** Selma Çalışkan
 
 ---
 
